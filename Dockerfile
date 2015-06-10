@@ -30,4 +30,4 @@ RUN cd $GLASSFISH_HOME && \
 
 EXPOSE 4848 8080 8181 50000
 
-CMD	asadmin start-domain
+CMD	asadmin start-domain --verbose
